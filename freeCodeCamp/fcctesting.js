@@ -37,7 +37,7 @@
 const fs = require("fs");
 
 const allowedOrigins = [
-  /^https?:\/\/([\w-]+\.)*freecodecamp.org/,
+  /^https:\/\/freecodecamp.topcoder(\-dev)?.com/,
   /^https:\/\/([\w-]+\.)*gitpod.io/,
   /^http:\/\/localhost:\d+/,
 ];
